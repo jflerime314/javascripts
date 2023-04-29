@@ -8,7 +8,7 @@ html,body{
     width: 80%;
     margin: 0 auto;
     padding: 5px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%;
 }
 
@@ -18,7 +18,61 @@ html,body{
 
 .calculator-container {
     width: 40%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 80%;
     margin: 0 auto;
+}
+#screen, #pad {
+    width: 90%;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+#screen{
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    align-items:end;
+}
+
+#operation-value {
+    padding: 25px;
+}
+
+#pad {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.pad-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    justify-content: center;
+}
+.pad-col{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.button{
+    width: 60px;
+    height: 48px;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background-color: black;
+}
+
+.content{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
