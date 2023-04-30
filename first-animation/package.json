@@ -1,0 +1,11 @@
+{
+  "name": "first-animation",
+  "version": "1.0.0",
+  "description": "\"learning animation with javascript first touch\"",
+  "main": "index.js",
+  "author": "Joseph A. Flerimé",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -76,3 +76,66 @@ html,body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.animation-btn-row{
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    height: 40%;
+    margin-top: 150px;
+}
+
+.caroussel-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.caroussel-pic-ctn{
+    flex: 3;
+    height: 100%;
+    /* border: 1px solid brown; */
+
+}
+
+.caroussel-btn-ctn {
+    height: 100%;
+    /* border: 1px solid green; */
+}
+.caroussel-btn-ctn button{
+    border: none;
+    height: 100%;
+    padding: 20px;
+    font-size: 16pt;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.caroussel-btn-ctn button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.caroussel-pic-ctn p {
+    height: 100%;
+    width: 25%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+.caroussel-pic-ctn .active {
+    display: block;
+}
+
+.caroussel-pic-ctn .inactive {
+    display: none;
+}
+
+img.c-pic {
+    width: 100%;
+    height: 100%;
+}
